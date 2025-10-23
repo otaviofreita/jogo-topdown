@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &107882830222643306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1147854781730332424, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2028750605802607496, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_Name
+      value: tanque inimigo 3 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026694232168349181, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2311716869540276090, guid: f7ef108d2d95aaa46b33e412bd743303, type: 3}
+    - target: {fileID: 5625191948884931840, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_Name
+      value: Slider3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977721916999581158, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5534855134646283459, guid: 8d5150363917a5148820e63a3700e9c6, type: 3}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4878478
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5183983
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.388516
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415312865451649069, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454763672968550223, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_Name
+      value: imagem3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
