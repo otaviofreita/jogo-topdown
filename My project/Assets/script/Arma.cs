@@ -4,10 +4,10 @@ public class Arma : MonoBehaviour
 {
     public Transform saidaDoTiro;
     public GameObject balaPrefab;
-    public float intervaloDeDisparo = 0.25f;
+    public float intervaloDisparo = 0.25f;
     public float velocidadeBala = 10f;
 
-    private float tempoDeDisparo;
+    private float proximoDisparo;
     private Camera cam;
 
     void Start()
@@ -17,27 +17,24 @@ public class Arma : MonoBehaviour
 
     void Update()
     {
-        // Mira
-        Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direcao = mousePos - transform.position;
+        // Mira do mouse
+        Vector3 posMouse = cam.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direcao = posMouse - transform.position;
         float angulo = Mathf.Atan2(direcao.y, direcao.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angulo);
 
-        // Atira
-        if (Input.GetMouseButton(0) && Time.time > tempoDeDisparo)
+        // Disparo
+        if (Input.GetMouseButton(0) && Time.time > proximoDisparo)
         {
-            tempoDeDisparo = Time.time + intervaloDeDisparo;
+            proximoDisparo = Time.time + intervaloDisparo;
             GameObject bala = Instantiate(balaPrefab, saidaDoTiro.position, saidaDoTiro.rotation);
             bala.GetComponent<Rigidbody2D>().linearVelocity = saidaDoTiro.right * velocidadeBala;
         }
-
-        
     }
+
     void OnDrawGizmos()
     {
-    Gizmos.color = Color.red;
-    Gizmos.DrawLine(transform.position, transform.position + transform.right * 1f);
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + transform.right * 1f);
     }
 }
-
-

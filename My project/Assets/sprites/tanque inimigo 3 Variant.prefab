@@ -20,6 +20,30 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2311716869540276090, guid: f7ef108d2d95aaa46b33e412bd743303, type: 3}
+    - target: {fileID: 3026694232168349181, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: dano
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: vidaAtual
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: velocidade
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: vidaMaxima
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: pontosAoMorrer
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5625191948884931840, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
       propertyPath: m_Name
       value: Slider3
@@ -28,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -5534855134646283459, guid: 8d5150363917a5148820e63a3700e9c6, type: 3}
+    - target: {fileID: 7977721916999581158, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4878478

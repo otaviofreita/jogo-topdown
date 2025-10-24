@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028750605802607496}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.645, y: 0.271, z: -2.388516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -48,11 +48,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf019a2c57ba8345a5072026ccf6bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2
-  vidaMaxima: 50
-  vidaAtual: 50
-  dano: 1
+  velocidade: 3
+  vidaMaxima: 70
+  vidaAtual: 70
+  dano: 15
   pontosAoMorrer: 30
+  intervaloDano: 1
   barraVida: {fileID: 2711487085577262818}
   corpo: {fileID: 7710304341913655404}
 --- !u!50 &4312943366304383556
@@ -112,7 +113,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -314,7 +315,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3052354834422261489, guid: 18f352f6a2844bd44a931fec2f51d957, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -373,7 +374,7 @@ GameObject:
   - component: {fileID: 6728857515681394218}
   - component: {fileID: 2711487085577262818}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: Slider1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,7 +630,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 3582949858127387921, guid: da5202f2d6839c7489748c1a972af5b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

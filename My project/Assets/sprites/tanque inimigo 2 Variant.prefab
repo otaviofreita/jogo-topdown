@@ -20,6 +20,26 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1227768241719865718, guid: 67a2034209cfda146a68786f6ec3e66e, type: 3}
+    - target: {fileID: 3026694232168349181, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: dano
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: vidaAtual
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: velocidade
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746378088230731681, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: vidaMaxima
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5625191948884931840, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
       propertyPath: m_Name
       value: Slider2
@@ -28,6 +48,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2737046392493237221, guid: 3a40fc98a2fcc5e4da2f7691a8b31c4c, type: 3}
+    - target: {fileID: 7977721916999581158, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8231971994740300927, guid: 6bb532ab6b996694e9b4c5d988ad6fc0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.67175233
